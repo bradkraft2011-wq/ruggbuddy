@@ -1,0 +1,11 @@
+{
+ "mint": "SYNTH2",
+ "verdict": "FAIL",
+ "fails": [
+  "mint authority is still active: the creator can print unlimited new tokens"
+ ],
+ "warns": [],
+ "info": {
+  "liquidity_usd": 15000
+ }
+}

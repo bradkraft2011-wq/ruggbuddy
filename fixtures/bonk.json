@@ -1,0 +1,17 @@
+{
+ "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+ "verdict": "WARN",
+ "fails": [],
+ "warns": [
+  "not a pump.fun bonding-curve token (liquidity must be verified another way)",
+  "trades on venue(s) whose liquidity is not verifiable from the pump.fun curve: ['meteora', 'orca', 'raydium'] (Meteora/other pools can be pulled by the creator)"
+ ],
+ "info": {
+  "dexes": [
+   "meteora",
+   "orca",
+   "raydium"
+  ],
+  "liquidity_usd": 1563198
+ }
+}

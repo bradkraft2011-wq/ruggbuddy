@@ -1,0 +1,15 @@
+{
+ "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+ "verdict": "PASS",
+ "fails": [],
+ "warns": [],
+ "info": {
+  "known": "USDC (Circle)",
+  "dexes": [
+   "meteora",
+   "orca",
+   "raydium"
+  ],
+  "liquidity_usd": 48169422
+ }
+}

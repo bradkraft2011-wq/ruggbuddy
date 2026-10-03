@@ -1,0 +1,20 @@
+# mintcheck test results Fri Oct  2 16:13:56 PDT 2026
+Run via: python3 mintcheck.py <MINT>  (DexScreener 429s are retried using Retry-After; each run can take 10-90 s)
+
+WARN  DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263
+  [warn] not a pump.fun bonding-curve token (liquidity must be verified another way)
+  [warn] trades on venue(s) whose liquidity is not verifiable from the pump.fun curve: ['meteora', 'orca', 'raydium'] (Meteora/other pools can be pulled by the creator)
+  info: {"token_program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA", "supply": 87994373654454.45, "decimals": 5, "dexes": ["meteora", "orca", "raydium"], "quoted_mc_usd": 386999483, "liquidity_usd": 1563198, "rugcheck_score_norm": 7, "rugcheck_risks": ["Mutable metadata:warn"]}
+exit=0
+WARN  JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN
+  [warn] not a pump.fun bonding-curve token (liquidity must be verified another way)
+  [warn] trades on venue(s) whose liquidity is not verifiable from the pump.fun curve: ['meteora', 'orca', 'raydium'] (Meteora/other pools can be pulled by the creator)
+  info: {"token_program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA", "supply": 6861486396.895898, "decimals": 6, "dexes": ["meteora", "orca", "raydium"], "quoted_mc_usd": 17043482586499, "liquidity_usd": 9884271, "rugcheck_score_norm": 7, "rugcheck_risks": ["Mutable metadata:warn"]}
+exit=0
+FAIL  jjVuJvbvQZ2jgaqBnYPB3gb78hAkG6np47WZwJipump
+  [FAIL] only 0.218 SOL (USD price n/a) left in the curve: effectively no exit liquidity (liquidity pulled / dead coin, FOMP-style)
+  info: {"token_program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb", "supply": 1000000000.0, "decimals": 6, "pump_curve": "G9ByEqvdm7633VV9gQxb3geuJFbywsv5zd24ecWBeRGA", "curve_complete": false, "curve_real_sol": 0.218269848, "dexes": ["pumpfun"], "quoted_mc_usd": 3347.91, "liquidity_usd": 0, "curve_exit_liquidity_usd": 0, "rugcheck_score_norm": 1, "rugcheck_risks": []}
+exit=2
+PASS  EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+  info: {"token_program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA", "supply": 8520561776.908479, "decimals": 6, "known": "USDC (Circle)", "expected_authorities": ["mint authority set (BJE5MM..)", "freeze authority set (7dGbd2..)"], "dexes": ["meteora", "meteoradbc", "orca", "pumpswap", "raydium"], "quoted_mc_usd": 74097613178, "liquidity_usd": 48169422, "rugcheck_score_norm": 1, "rugcheck_risks": []}
+exit=0

@@ -1,0 +1,12 @@
+{
+ "mint": "SYNTH1",
+ "verdict": "FAIL",
+ "fails": [
+  "top-10 holders own 71% of supply (excluding curve)"
+ ],
+ "warns": [],
+ "info": {
+  "top10_pct_excl_curve": 71.0,
+  "liquidity_usd": 22000
+ }
+}

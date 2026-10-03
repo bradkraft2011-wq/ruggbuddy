@@ -1,0 +1,4 @@
+# Only needed for the optional local explainer (ruggbuddy.py without --no-llm).
+# mintcheck.py itself is stdlib-only.
+torch
+transformers

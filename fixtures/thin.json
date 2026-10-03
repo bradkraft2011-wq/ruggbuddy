@@ -1,0 +1,11 @@
+{
+ "mint": "SYNTH3",
+ "verdict": "WARN",
+ "fails": [],
+ "warns": [
+  "thin liquidity $1,800"
+ ],
+ "info": {
+  "liquidity_usd": 1800
+ }
+}

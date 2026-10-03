@@ -1,0 +1,20 @@
+{
+ "mint": "jjVuJvbvQZ2jgaqBnYPB3gb78hAkG6np47WZwJipump",
+ "verdict": "FAIL",
+ "fails": [
+  "only 0.218 SOL (USD price n/a) left in the curve: effectively no exit liquidity (liquidity pulled / dead coin, FOMP-style)"
+ ],
+ "warns": [],
+ "info": {
+  "token_program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+  "supply": 1000000000.0,
+  "decimals": 6,
+  "pump_curve_complete": false,
+  "curve_real_sol": 0.218269848,
+  "dexes": [
+   "pumpfun"
+  ],
+  "quoted_mc_usd": 3347.91,
+  "liquidity_usd": 0
+ }
+}

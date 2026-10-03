@@ -1,0 +1,9 @@
+{
+ "mint": "SYNTH5",
+ "verdict": "PASS",
+ "fails": [],
+ "warns": [],
+ "info": {
+  "liquidity_usd": 900000
+ }
+}

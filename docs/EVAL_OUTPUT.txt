@@ -1,0 +1,18 @@
+bonk.json      WARN  guard_pass=False
+   Be careful. The pump.fun bonding curve token has been warned for its low liquidity, requiring verification through other means before it can be traded.
+clean.json     PASS  guard_pass=False
+   No red flags were found. The pool's liquidity meets the minimum requirement of $900,000, indicating sufficient funds for trading purposes.
+fomp.json      FAIL  guard_pass=False
+   Do not buy this. The pump.fun curve has collapsed, leaving virtually no exit liquidity and effectively no exit opportunity.
+mintauth.json  FAIL  guard_pass=True
+   Do not buy this. The token check has failed due to an ongoing minting activity by the creator, which allows for unlimited new tokens to be printed without approval. This could lead to market instability and decreased value of the token.
+mutable.json   WARN  guard_pass=True
+   Be careful. The verdict from the rule checker is WARN, indicating there's an issue with the token check process. A cautionary note states that rugcheck is unavailable, suggesting this might be due to technical issues or lack of data. The pool liquidity is around $450,000, which could indicate insufficient funds for the token check process.
+thin.json      WARN  guard_pass=True
+   Be careful. The rule checker has warned of a WARN verdict due to insufficient pool liquidity ($1,800), which could lead to poor performance or potential loss if the pool cannot meet its obligations.
+top10.json     FAIL  guard_pass=False
+   Do not buy this. The token's high percentage of ownership by top-10 holders and its low pool liquidity suggest it may be overvalued or mispriced, making it less suitable for investment.
+usdc.json      PASS  guard_pass=False
+   No red flags were found. The token meets all requirements for a pass verdict by the rule checker. It has sufficient liquidity ($48,169,422) and is known as USDC (Circle).
+
+local-LLM text accepted by guard: 3/8; the rest fall back to the template.

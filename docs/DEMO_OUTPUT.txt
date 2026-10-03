@@ -1,0 +1,12 @@
+FAIL  jjVuJvbvQZ2jgaqBnYPB3gb78hAkG6np47WZwJipump
+Do not buy this. The checker found a deal-breaker, so you would probably not be able to sell. Why: - only 0.218 SOL (USD price n/a) left in the curve: effectively no exit liquidity (liquidity pulled / dead coin, FOMP-style). This is not financial advice.
+[explanation by: template; 5.8s; model=n/a; verdict by rules]
+
+FAIL  SYNTH2
+Do not buy this. The token check has failed due to an ongoing minting activity by the creator, which allows for unlimited new tokens to be printed without approval. This could lead to market instability and decreased value of the token.
+[explanation by: local-llm; 6.8s; model=Qwen/Qwen2.5-0.5B-Instruct; verdict by rules]
+
+WARN  DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263
+Be careful. Nothing fatal was found, but some things could not be verified. Why: - not a pump.fun bonding-curve token (liquidity must be verified another way). - trades on venue(s) whose liquidity is not verifiable from the pump.fun curve: ['meteora', 'orca', 'raydium'] (Meteora/other pools can be pulled by the creator). This is not financial advice.
+[explanation by: template; 6.7s; model=n/a; verdict by rules]
+

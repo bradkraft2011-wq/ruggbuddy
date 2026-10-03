@@ -1,0 +1,11 @@
+{
+ "mint": "SYNTH4",
+ "verdict": "WARN",
+ "fails": [],
+ "warns": [
+  "RugCheck unavailable"
+ ],
+ "info": {
+  "liquidity_usd": 450000
+ }
+}
